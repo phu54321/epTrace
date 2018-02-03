@@ -31,9 +31,6 @@
     <Filter Include="AsmJit\Helpers">
       <UniqueIdentifier>{e856edb5-6e81-44c0-a687-1901b1cc2c3d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="LocalHook">
-      <UniqueIdentifier>{d8e1ddde-63c1-40a4-b8c6-5285e4fad4ba}</UniqueIdentifier>
-    </Filter>
     <Filter Include="DriverControl">
       <UniqueIdentifier>{3ed75fd0-62a1-4a6a-a158-6749fb3f3d90}</UniqueIdentifier>
     </Filter>
@@ -48,6 +45,9 @@
     </Filter>
     <Filter Include="Symbols">
       <UniqueIdentifier>{e666a795-e3de-4277-9223-b220c8d109ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Include\LocalHook">
+      <UniqueIdentifier>{d8e1ddde-63c1-40a4-b8c6-5285e4fad4ba}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -109,10 +109,10 @@
       <Filter>ManualMap\Native</Filter>
     </ClCompile>
     <ClCompile Include="LocalHook\LocalHookBase.cpp">
-      <Filter>LocalHook</Filter>
+      <Filter>Include\LocalHook</Filter>
     </ClCompile>
     <ClCompile Include="LocalHook\TraceHook.cpp">
-      <Filter>LocalHook</Filter>
+      <Filter>Include\LocalHook</Filter>
     </ClCompile>
     <ClCompile Include="DriverControl\DriverControl.cpp">
       <Filter>DriverControl</Filter>
@@ -281,31 +281,31 @@
       <Filter>ManualMap\Native</Filter>
     </ClInclude>
     <ClInclude Include="LocalHook\HookHandlerCdecl.h">
-      <Filter>LocalHook</Filter>
+      <Filter>Include\LocalHook</Filter>
     </ClInclude>
     <ClInclude Include="LocalHook\HookHandlerFastcall.h">
-      <Filter>LocalHook</Filter>
+      <Filter>Include\LocalHook</Filter>
     </ClInclude>
     <ClInclude Include="LocalHook\HookHandlers.h">
-      <Filter>LocalHook</Filter>
+      <Filter>Include\LocalHook</Filter>
     </ClInclude>
     <ClInclude Include="LocalHook\HookHandlerStdcall.h">
-      <Filter>LocalHook</Filter>
+      <Filter>Include\LocalHook</Filter>
     </ClInclude>
     <ClInclude Include="LocalHook\HookHandlerThiscall.h">
-      <Filter>LocalHook</Filter>
+      <Filter>Include\LocalHook</Filter>
     </ClInclude>
     <ClInclude Include="LocalHook\LocalHook.hpp">
-      <Filter>LocalHook</Filter>
+      <Filter>Include\LocalHook</Filter>
     </ClInclude>
     <ClInclude Include="LocalHook\LocalHookBase.h">
-      <Filter>LocalHook</Filter>
+      <Filter>Include\LocalHook</Filter>
     </ClInclude>
     <ClInclude Include="LocalHook\TraceHook.h">
-      <Filter>LocalHook</Filter>
+      <Filter>Include\LocalHook</Filter>
     </ClInclude>
     <ClInclude Include="LocalHook\VTableHook.hpp">
-      <Filter>LocalHook</Filter>
+      <Filter>Include\LocalHook</Filter>
     </ClInclude>
     <ClInclude Include="Include\FunctionTypes.h">
       <Filter>Include</Filter>

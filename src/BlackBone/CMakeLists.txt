@@ -128,14 +128,12 @@ source_group(ManualMap FILES ${ManualMap})
 
 ##########################################################
 set(SOURCE_MISC     Misc/InitOnce.cpp
-					Misc/PatternLoader.cpp
                     Misc/NameResolve.cpp
                     Misc/Utils.cpp)
                     
 set(HEADER_MISC     Misc/DynImport.h
                     Misc/InitOnce.h
                     Misc/NameResolve.h
-					Misc/PatternLoader.h
                     Misc/Thunk.hpp
                     Misc/Trace.hpp
                     Misc/Utils.h)

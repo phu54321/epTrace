@@ -81,8 +81,8 @@ private:
 };
 
 using Handle        = HandleGuard<HANDLE, decltype(&CloseHandle), &CloseHandle, nullptr>;
-using FileHandle    = HandleGuard<HANDLE, decltype(&CloseHandle), &CloseHandle, INVALID_HANDLE_VALUE>;
-using ACtxHandle    = HandleGuard<HANDLE, decltype(&ReleaseActCtx), &ReleaseActCtx, INVALID_HANDLE_VALUE>;
+using FileHandle    = HandleGuard<HANDLE, decltype(&CloseHandle), &CloseHandle, (HANDLE)INVALID_HANDLE_VALUE>;
+using ACtxHandle    = HandleGuard<HANDLE, decltype(&ReleaseActCtx), &ReleaseActCtx, (HANDLE)INVALID_HANDLE_VALUE>;
 using FileMapHandle = HandleGuard<void*, decltype(&UnmapViewOfFile), &UnmapViewOfFile, nullptr>;
 using SnapHandle    = FileHandle;
 
